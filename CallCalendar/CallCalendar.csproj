@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons\тюрьм)))))).png" />
+    <None Remove="icons\master.png" />
+    <None Remove="icons\visa.png" />
+    <None Remove="icons\lom.png" />
+    <None Remove="icons\наручни)).png" />
+    <None Remove="icons\money.png" />
+    <None Remove="icons\pngwin.png" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\тюрьм)))))).png" />
+    <Resource Include="icons\master.png" />
+    <Resource Include="icons\visa.png" />
+    <Resource Include="icons\lom.png" />
+    <Resource Include="icons\наручни)).png" />
+    <Resource Include="icons\money.png" />
+    <Resource Include="icons\pngwin.png" />
+
+  </ItemGroup>
+
+</Project>
